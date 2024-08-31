@@ -12,6 +12,7 @@
 }
 
 .customer-input {
+    margin: 0;
     flex: 1;
     padding: 10px;
     border: 1px solid #d1d3e2;

@@ -4,6 +4,7 @@ import CustomerItem from '../CustomerItem/CustomerItem'
 import "./CustomerList.css"
 import { useState } from 'react'
 
+
 function CustomerList({ customers, setCustomers }) {
 
 
@@ -19,6 +20,7 @@ function CustomerList({ customers, setCustomers }) {
             ))}
         </ul>
     );
+
 }
 
 CustomerList.propTypes = {
